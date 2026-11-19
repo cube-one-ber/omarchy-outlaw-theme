@@ -1,0 +1,43 @@
+mode = "dark"
+
+# Outlaw: a frontier palette. Saddle leather and walnut underfoot, parchment
+# text, rust and brass for emphasis, and faded denim, sage and verdigris for
+# the cool notes. It mixes the "Meditations in Color" swatches (marked *) with
+# a few frontier tones of our own.
+
+accent = "#cc6c54"            # * Dark Cadmium Orange: rust
+selection = "#783030"         # * Sepia
+muted = "#906050"             # * Muted Red: saddle leather
+
+background = "#1e1612"        # walnut
+dark_background = "#18110e"
+darker_background = "#110c0a"
+lighter_background = "#2e211b" # worn leather
+
+foreground = "#e8dcc4"        # parchment
+dark_foreground = "#a89e98"   # * Warm Grey IV: trail dust
+light_foreground = "#d8c8ac"
+bright_foreground = "#f3f1ef" # * Ivory
+
+red = "#e8503a"               # brick, between Light and Middle Cadmium Red
+yellow = "#d9a441"            # brass
+orange = "#f09c6c"            # * Pale Geranium Lake
+green = "#a3a26a"             # sagebrush
+cyan = "#86ab9a"              # verdigris
+blue = "#93a6bf"              # faded denim
+magenta = "#c98b8b"           # prairie rose
+brown = "#906050"             # * Muted Red
+
+bright_red = "#fc603c"        # * Light Cadmium Red
+bright_yellow = "#ffb010"     # * Dark Cadmium Yellow: gold
+bright_green = "#c2c08a"
+bright_cyan = "#a6c8b8"
+bright_blue = "#b2c2d8"
+bright_magenta = "#e2aaa8"
+
+selection_foreground = "#f3f1ef"
+selection_background = "#783030"
+
+# Brass-to-rust on the focused window; the rest fade into leather.
+hyprland_active_border = "rgba(d9a441ee) rgba(cc6c54ee) 45deg"
+hyprland_inactive_border = "rgba(3e2c22cc)"

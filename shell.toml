@@ -1,0 +1,135 @@
+# Outlaw shell surfaces: frontier saloon menus. Walnut cards with a tan
+# edge; the selected row is a Sepia bar with ivory text and brass trim;
+# popups and notifications carry the brass-to-rust window border.
+# This file replaces Omarchy's generated shell.toml, so colours are literal.
+
+[bar]
+background       = "#18110e"
+background-alpha = 1.0
+text             = "#e8dcc4"
+active           = "#e8503a"
+scale-with-font  = true
+size-horizontal  = 26
+size-vertical    = 28
+
+[hyprland]
+active-border            = "rgba(d9a441ee) rgba(cc6c54ee) 45deg"
+active-border-foreground = "#b08a74"
+
+[controls]
+normal-color        = "#e8dcc4"
+normal-fill-alpha   = 0.04
+normal-border       = "#b08a74"
+normal-border-width = 1
+normal-border-alpha = 0.4
+
+hover-cursor-color        = "#e8dcc4"
+hover-cursor-fill-alpha   = 0.10
+hover-cursor-border       = "#d9a441"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.45
+
+focus-color        = "#e8dcc4"
+focus-fill-alpha   = 0.10
+focus-border       = "#d9a441"
+focus-border-width = 1
+focus-border-alpha = 0.45
+
+# Chosen state: Sepia bar with brass trim.
+selected-color        = "#783030"
+selected-fill-alpha   = 0.9
+selected-border       = "#d9a441"
+selected-border-width = 1
+selected-border-alpha = 0.6
+
+pressed-fill-alpha   = 0.25
+selection-fill-alpha = 0.45
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+
+[font]
+base-size = 12
+
+[popups]
+background       = "#1e1612"
+background-alpha = 0.97
+text             = "#e8dcc4"
+border           = "hyprland.active-border"
+border-alpha     = 1.0
+
+[tooltip]
+background       = "#18110e"
+background-alpha = 0.97
+text             = "#e8dcc4"
+border           = "#b08a74"
+border-alpha     = 0.5
+
+[notifications]
+background       = "#1e1612"
+background-alpha = 0.97
+text             = "#e8dcc4"
+border           = "hyprland.active-border"
+border-alpha     = 1.0
+countdown        = "#d9a441"
+
+[launcher]
+background                = "#1e1612"
+background-alpha          = 0.95
+text                      = "#e8dcc4"
+border                    = "#b08a74"
+border-alpha              = 0.35
+scrim                     = "#110c0a"
+scrim-alpha               = 0.55
+selected-background       = "#783030"
+selected-background-alpha = 0.9
+selected-text             = "#f3f1ef"
+selected-border           = "#d9a441"
+selected-border-alpha     = 0.6
+
+[menu]
+background                = "#1e1612"
+background-alpha          = 1.0
+text                      = "#e8dcc4"
+border                    = "#b08a74"
+border-alpha              = 0.35
+scrim                     = "#110c0a"
+scrim-alpha               = 0.55
+selected-background       = "#783030"
+selected-background-alpha = 0.9
+selected-text             = "#f3f1ef"
+selected-border           = "#d9a441"
+selected-border-alpha     = 0.6
+
+[polkit]
+background       = "#1e1612"
+background-alpha = 1.0
+text             = "#e8dcc4"
+text-error       = "#fc603c"
+border           = "hyprland.active-border"
+border-error     = "#fc603c"
+border-alpha     = 1.0
+scrim            = "#110c0a"
+scrim-alpha      = 0.6
+accent           = "#d9a441"
+
+[lock]
+background       = "#18110e"
+background-alpha = 0.8
+text             = "#e8dcc4"
+placeholder      = "#a89e98"
+text-error       = "#fc603c"
+border           = "hyprland.active-border"
+border-active    = "hyprland.active-border"
+border-error     = "#fc603c"
+border-alpha     = 1.0
+selection        = "#cc6c54"
+selection-alpha  = 0.45
+
+[image-picker]
+text                    = "#e8dcc4"
+selected-border         = "#d9a441"
+selected-border-alpha   = 1.0
+unselected-border       = "#e8dcc4"
+unselected-border-alpha = 0.25
